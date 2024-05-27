@@ -1,0 +1,215 @@
+.container {
+    /* Expert Onboarding Flow */
+
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.preferredName {
+    width: 100wh;
+    height: 100vh;
+    gap: 0px;
+    opacity: 0px;
+    background: #002C66;
+
+}
+
+.FN {
+    /* Input Fields/Text Field */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 590px;
+    top: 36px;
+
+    /* CSK - #EEEEEE/400
+
+CSK - #EEEEEE/400
+*/
+    border: 1px solid #999999;
+    border-radius: 8px;
+
+}
+
+.FN_input {
+    /* Auto layout */
+    /* Atoms */
+
+    width: 370px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border: none;
+}
+
+.LN {
+    /* Input Fields/Text Field */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 590px;
+    top: 136px;
+
+    /* CSK - #EEEEEE/400
+
+CSK - #EEEEEE/400
+*/
+    border: 1px solid #999999;
+    border-radius: 8px;
+
+}
+
+.LN_input {
+    /* Atoms */
+
+    width: 370px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border: none;
+
+}
+
+.title {
+    /* Input Fields/Text Field */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 590px;
+    top: 236px;
+
+    /* CSK - #EEEEEE/400
+
+CSK - #EEEEEE/400
+*/
+    border: 1px solid #999999;
+    border-radius: 8px;
+
+}
+
+.title_input {
+    /* Atoms */
+
+    width: 370px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    border: none;
+
+}
+
+.button {
+    /* Frame 1000002364 */
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 600px;
+    top: 471px;
+    border: none;
+}
+
+.buttontext {
+    /* Back */
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 30px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #0D0D0D;
+
+}
+
+.Next {
+    /* Frame 1000002415 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 875px;
+    top: 471px;
+    border: none;
+}
+
+.Nexttext {
+    /* Next */
+
+    width: 56px;
+    height: 29px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #0D0D0D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}

@@ -1,0 +1,326 @@
+.welcomeTask {
+    position: absolute;
+    width: 100wh;
+    height: 100vh;
+    object-fit: cover;
+    left: 0px;
+    top: 0px;
+}
+.createAcc{
+    /* Create Account */
+
+position: absolute;
+width: 327px;
+height: 63px;
+left: calc(50% - 327px/2 + 343.5px);
+top: calc(50% - 63px/2 - 251.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 150%;
+/* identical to box height, or 63px */
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #0D0D0D;
+}
+
+.find {
+    /* Find and connect for your new opportunity */
+
+position: absolute;
+width: 315px;
+height: 23px;
+left: calc(50% - 315px/2 + 349.5px);
+top: calc(50% - 23px/2 - 208.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+text-align: center;
+letter-spacing: -0.011em;
+color: #0D0D0D;
+}
+
+.email {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 777px; /* Adjust left position */
+    top: 150px; /* Adjust top position */
+    border: 1px solid #999999;
+    border-radius: 8px;
+  }
+  
+  .password {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 8px;
+    position: absolute;
+    width: 394px;
+    height: 52px;
+    left: 777px; /* Adjust left position */
+    top: 230px; /* Adjust top position */
+    border: 1px solid #999999;
+    border-radius: 8px;
+  }
+  
+  .inputField {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  /* Optional: Placeholder styling */
+  .inputField::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #999999;
+  }
+  
+  /* Optional: Hover and Focus effects */
+  .inputField:hover,
+  .inputField:focus {
+    border-color: #666666;
+  }
+
+  .buttonContainer {
+    position: absolute;
+    width: 394px;
+    height: 58px;
+    left: 777px;
+    top: 300px;
+  }
+  
+  .button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #338BFF;
+    border-radius: 85px;
+  }
+  
+  .buttonText {
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    left: calc(50% - 144px); /* Adjust based on the button's width */
+    top: 14px; /* Adjust based on the button's height */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.019em;
+    color: #FAFAFA;
+  }
+  
+.already{
+    /* Already have an account? */
+
+position: absolute;
+width: 234px;
+height: 27px;
+left: calc(50% - 234px/2 + 316px);
+top: calc(50% - 37px/2 + 110.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #4D4D4D;
+}
+
+.badaDiv{
+    /* Group 1000002476 */
+
+position: absolute;
+width: 299px;
+height: 27px;
+left: 919px;
+top: 609px;
+
+
+
+/* Already have an account? */
+
+position: absolute;
+width: 234px;
+height: 27px;
+left: calc(50% - 234px/2 + 316px);
+top: calc(50% - 27px/2 + 110.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #4D4D4D;
+
+
+
+/* Log in */
+
+position: absolute;
+width: 53px;
+height: 27px;
+left: calc(50% - 53px/2 + 471.5px);
+top: calc(50% - 27px/2 + 110.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #4D4D4D;
+}
+
+.LOGIN{
+    /* Log in */
+position: absolute;
+width: 53px;
+height: 27px;
+left: calc(50% - 83px/2 + 471.5px);
+top: calc(50% - 35px/2 + 110.5px);
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+text-align: center;
+letter-spacing: -0.011em;
+
+color: #4D4D4D;
+}
+
+.Fline{
+    /* Vector 1 */
+
+position: absolute;
+width: 158px;
+height: 0px;
+left: 784px;
+top: 440px;
+background: #2F2F2F;
+border: 1px solid #000000;
+}
+
+.or{
+    /* or */
+/* or */
+
+position: absolute;
+width: 28px;
+height: 18px;
+left: 965px;
+top: 430px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 150%;
+/* or 22px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.019em;
+
+color: #2F2F2F;
+}
+
+.Lline{
+    /* Vector 2 */
+
+position: absolute;
+width: 158px;
+height: 0px;
+left: 1000px;
+top: 440px;
+
+background: #2F2F2F;
+border: 1px solid #000000;
+}
+
+.loginicons{
+    display: flex;
+  justify-content: space-between; /* Adjust as needed: space-between, space-around, space-evenly */
+  align-items: center; 
+}
+
+.googleIcon {
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 65px;
+    top: 280px;
+    width: 27px;
+    width: 63px;
+    height: 63px;
+    top: 480px;
+    left: 840px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.Linkedin {
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 965px;
+    top: 280px;
+    width: 27px;
+    width: 63px;
+    height: 63px;
+    top: 480px;
+    left: 940px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.Apple {
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 965px;
+    top: 280px;
+    width: 27px;
+    width: 63px;
+    height: 63px;
+    top: 480px;
+    left: 1040px;
+    gap: 0px;
+    opacity: 0px;    
+}

@@ -1,0 +1,239 @@
+.interestlogo {
+    /* B 1  Linked in carousel cover */
+
+    position: absolute;
+    width: 100wh;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #002C66;
+}
+
+.search {
+    /* Container for search instruction text */
+    position: absolute;
+    width: 351px;
+    height: 46px;
+    left: calc(50% - 351px/2 + 221.5px);
+    top: calc(50% - 36px/2 - 279px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #0D0D0D;
+}
+
+.searchBox {
+    /* Container for the search input and icon */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 601px;
+    height: 53px;
+    left: calc(50% - 801px/2 + 349.5px);
+    top: 110px;
+
+    border: 1px solid #999999;
+    border-radius: 6px;
+    padding: 0 12px;
+    /* Add padding to create space for the icon */
+    box-sizing: border-box;
+}
+
+.inputField {
+    /* Input field styling */
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.searchIcon {
+    /* Search icon styling */
+    width: 19px;
+    height: 12px;
+    margin-right: 8px;
+    /* Space between icon and input field */
+    fill: #999999;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center align the button rows horizontally */
+    gap: 20px;
+    /* Vertical space between button rows */
+    margin-top: 180px;
+    /* Adjust as needed */
+    margin-left: 500px;
+    ;
+}
+
+.buttonRow {
+    display: flex;
+    gap: 20px;
+    /* Horizontal space between buttons */
+}
+
+.button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 24px;
+    gap: 10px;
+    /* Space between icon and text */
+    width: 150px;
+    /* Adjust the width as needed */
+    height: 44px;
+    /* Adjust the height as needed */
+    border: 1px solid #4D4D4D;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    /* Adjust font family */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4D4D4D;
+}
+
+/* Optional: Add hover effect to buttons */
+.button:hover {
+    font-weight: bold;
+    border-color: #333;
+}
+
+.back {
+    /* Frame 1000002364 */
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 700px;
+    top: 471px;
+    border: none;
+}
+
+.back:hover {
+    font-weight: bold;
+    border-color: #333;
+}
+
+.backtext {
+    /* Back */
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 30px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #0D0D0D;
+
+}
+
+.Next {
+    /* Frame 1000002415 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 100px;
+    height: 29px;
+    left: 890px;
+    top: 471px;
+    border: none;
+}
+
+.Next:hover {
+    font-weight: bold;
+    border-color: #333;
+}
+
+.Nexttext {
+    /* Next */
+
+    width: 56px;
+    height: 29px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #0D0D0D;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.rectangle {
+    /* Rectangle 2510 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 301px;
+    height: 222px;
+    left: 569px;
+    top: 170px;
+    background: #F6F6F6;
+    border: 1px solid rgba(0, 44, 102, 0.4);
+    border-radius: 5px;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items from the start */
+    padding: 10px; /* Adjust padding as needed */
+    gap:15px;
+}
+
+.checkicon {
+    /* Rectangle 2506 */
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border: 0.6px solid #939393;
+    border-radius: 1.73913px;
+    flex: none; /* Prevent icon from growing */
+    margin-bottom: 5px; /* Add margin for spacing between icon and text */
+    gap: 5px;
+}
+
+.checkbar {
+    /* User test */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px; /* Adjust line height if needed */
+    color: #404040;
+    flex: 1; /* Allow text to grow and take remaining space */
+}
+
