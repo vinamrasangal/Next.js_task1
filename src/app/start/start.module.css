@@ -8,12 +8,12 @@
 }
 
 .preferredName {
+  position: absolute;
     width: 100wh;
     height: 100vh;
-    gap: 0px;
-    opacity: 0px;
-    background: #002C66;
-
+    object-fit: cover;
+    left: 0px;
+    top: 0px;
 }
 
 .FN {
